@@ -28,7 +28,7 @@ var tabulate = function (data,columns) {
     return table;
   }
 
-  var url = 'https://gist.githubusercontent.com/yahtzee-tourneys/418f01e9db9d70bc3cc5786fe15e266d/raw/8b12bee1673b64c53d415bced1e92912bb6866d6/tourney_standing_report.csv'
+  var url = 'https://gist.githubusercontent.com/yahtzee-tourneys/418f01e9db9d70bc3cc5786fe15e266d/raw/8b12bee1673b64c53d415bced1e92912bb6866d6/tourney_standing_report.csv';
   
   d3.csv(url,function (data) {
       var columns = ['Name','Wins','Losses','Byes','DQed']

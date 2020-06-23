@@ -1,0 +1,33 @@
+table.dataTable {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #3A3A3A;
+    border-collapse: collapse;
+}
+
+table.dataTable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: lightsteelblue;
+    background-color: steelblue;
+    color: #ffffff;
+}
+
+table.dataTable tr:hover td {
+    cursor: pointer;
+}
+
+table.dataTable tr:nth-child(even) td{
+    background-color: lightsteelblue;
+}
+
+table.dataTable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: lightsteelblue;
+    background-color: #ffffff;
+}

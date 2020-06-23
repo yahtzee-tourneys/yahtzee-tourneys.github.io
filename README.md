@@ -17,6 +17,6 @@
 
 4) Paste over the old stadnings and update, as illustrated below
 
-![]()./images/update_gist_screenshot.JPG)
+![](./images/update_gist_screenshot.JPG)
 
 5) **Optional:** Use [**this Python script**](https://gist.github.com/yahtzee-tourneys/fe71de88ae3bb68963c446a50078a4cc) to pull in your exported tourney standing report and automatically parse and export the relevant report section as a CSV file; use it to complete steps 1-4.

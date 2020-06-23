@@ -1,1 +1,1 @@
-![]('./images/yahtzee_logo(500x375).png')
+[]('./images/yahtzee_logo(500x375).png')

@@ -24,7 +24,7 @@ jobs:
 
     # Runs python script and pushes CSV output
     - name: Run a one-line script
-      run: python ./.github/workflows/tourney_standing_parser.py
+      run: python ../../upload_report_here/tourney_standing_parser.py
 
     - name: commit changed files
       run: git commit -m "Auto updating tourney_standing_report.csv"
